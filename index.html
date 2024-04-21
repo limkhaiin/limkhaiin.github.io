@@ -4,37 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaiying's Personal Webpage</title>
+    <style>
+        .about-me-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: auto;
+            border-radius: 75px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to My Page!</h1>
-        <p>This is a brief introduction about myself.</p>
+        <p>I am a linguist and a computer scientist!I am a Ph.D. Candidate in Linguistics and a Master’s student in Computer Science, at the University of Hawai’i.</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="publications.html">Publications</a>
+            <a href="presentations.html">Presentations</a>
+            <!-- Add more links as needed -->
+        </nav>
     </header>
     <section>
         <h2>About Me</h2>
+        <div class="about-me-container">
+            <img src="path_to_your_photo.jpg" alt="Me in my room" class="profile-photo">
+            <p>Here you can write something about yourself. For example, your hobbies, interests, or professional background.</p>
+        </div>
         <p>
-        I am a Ph.D. Candidate in Linguistics and a Master’s student in Computer Science, at the University of Hawai’i. 
-        Before UH, I obtained my Master’s degree in Chinese Linguistics from the University of Tokyo, and my Bachelor’s degree in Japanese from the National Taiwan University. 
-        
-        My research crosses two important aspects:
-        In Linguistics, I am interested in using computational modeling and language acquisition methods to examine syntax/semantics issues. 
-        I conducted research in language acquisition, syntax/semantics, and computational modeling of language problems. 
-        My dissertation examines the child language acquisition of Mandarin unaccusativity. 
-        I proposed that language-specific environment can actively affect the categories of unaccusativity, and a theory should include the aspect of language environment, in addition to the semantics of verbs. 
-        In addition to Mandarin, I also studied the child language acquisition of the Voice system in Paiwan, an Austronesian language in Taiwan. 
-        I had a few studies in historical syntax, which studied the historical change of Taiwanese, and functional words in Tangut.
-
-        In Computer Science, I am working under Peter Y. Washington’s lab and have conducted a few studies in detecting healthcare issues using language data, such as dementia and ADHD, Autism. 
-        I used the approaches of fine-tuning pre-trained models and evaluating LLM..</p>
-    </section>
-    <section>
-        <h2>My Projects</h2>
-        <p>Description of your projects. You can add links to your projects here.</p>
-    </section>
-    <section>
-        <h2>Photo Gallery</h2>
-        <img src="path_to_your_photo.jpg" alt="Description of the photo">
-        <!-- Add more <img> tags below for more photos -->
+        Before UH, I obtained my Master’s degree in Chinese Linguistics from the University of Tokyo, and my Bachelor’s degree in Japanese from the National Taiwan University. </br>
+        </br>
+        My research crosses two important aspects:</br>
+        In Linguistics, I am interested in using computational modeling and language acquisition methods to examine syntax/semantics issues. </br>
+        I conducted research in language acquisition, syntax/semantics, and computational modeling of language problems. </br>
+        My dissertation examines the child language acquisition of Mandarin unaccusativity. </br>
+        I proposed that language-specific environment can actively affect the categories of unaccusativity, and a theory should include the aspect of language environment, in addition to the semantics of verbs. </br>
+        In addition to Mandarin, I also studied the child language acquisition of the Voice system in Paiwan, an Austronesian language in Taiwan. </br>
+        I had a few studies in historical syntax, which studied the historical change of Taiwanese, and functional words in Tangut.</br>
+        </br>
+        In Computer Science, I am working under Peter Y. Washington’s lab and have conducted a few studies in detecting healthcare issues using language data, such as dementia and ADHD, Autism. </br>
+        I used the approaches of fine-tuning pre-trained models and evaluating LLM.</br></p>
     </section>
     <footer>
         <p>If you would like to collaborate or have any questions, contact me at: <a href="mailto:kylin@hawaii.edu">kylin@hawaii.edu</a></p>
