@@ -5,22 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaiying's Personal Webpage</title>
     <style>
+        /* Basic Reset */
+        body, h1, h2, p, ul, li, nav, header, section, footer {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        /* Typography */
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+    
+        h1, h2 {
+            color: #0056b3;
+        }
+    
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+    
+        h2 {
+            margin-bottom: 10px;
+            font-size: 1.75em;
+        }
+    
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+    
+        a {
+            color: #0067d5;
+            text-decoration: none;
+        }
+    
+        a:hover {
+            text-decoration: underline;
+        }
+    
+        /* Navigation Styles */
+        nav {
+            background: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+    
+        nav a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.1em;
+        }
+    
+        /* Section Styling */
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+    
         .about-me-container {
             display: flex;
             align-items: center;
             gap: 20px;
         }
-
+    
         .profile-photo {
             width: 150px;
             height: auto;
             border-radius: 75px;
         }
+    
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-me-container {
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            nav a {
+                display: block;
+                margin: 5px;
+            }
+        }
     </style>
+    
 </head>
 <body>
     <header>
-        <h1>Welcome to My Page!</h1> 
+        <h1>Welcome to Kaiying's personal page!</h1> 
         <nav>
             <a href="index.html">Home</a>
             <a href="publications.html">Publications</a>
@@ -35,18 +132,19 @@
             <p>I am a linguist and a computer scientist!I am a Ph.D. Candidate in Linguistics and a Master’s student in Computer Science, at the University of Hawai’i.</p>
         </div>
         <p>
-        Before UH, I obtained my Master’s degree in Chinese Linguistics from the University of Tokyo, and my Bachelor’s degree in Japanese from the National Taiwan University. </br>
-        </br>
-        My research crosses two important aspects:</br>
-        In Linguistics, I am interested in using computational modeling and language acquisition methods to examine syntax/semantics issues. </br>
-        I conducted research in language acquisition, syntax/semantics, and computational modeling of language problems. </br>
-        My dissertation examines the child language acquisition of Mandarin unaccusativity. </br>
-        I proposed that language-specific environment can actively affect the categories of unaccusativity, and a theory should include the aspect of language environment, in addition to the semantics of verbs. </br>
-        In addition to Mandarin, I also studied the child language acquisition of the Voice system in Paiwan, an Austronesian language in Taiwan. </br>
-        I had a few studies in historical syntax, which studied the historical change of Taiwanese, and functional words in Tangut.</br>
-        </br>
-        In Computer Science, I am working under Peter Y. Washington’s lab and have conducted a few studies in detecting healthcare issues using language data, such as dementia and ADHD, Autism. </br>
-        I used the approaches of fine-tuning pre-trained models and evaluating LLM.</br></p>
+            Before UH, I obtained my Master’s degree in Chinese Linguistics from the University of Tokyo, and my Bachelor’s degree in Japanese from the National Taiwan University.<br><br>
+        
+            My research crosses two important aspects:<br>
+            In Linguistics, I am interested in using computational modeling and language acquisition methods to examine syntax/semantics issues.<br>
+            I conducted research in language acquisition, syntax/semantics, and computational modeling of language problems.<br>
+            My dissertation examines the child language acquisition of Mandarin unaccusativity.<br>
+            I proposed that language-specific environment can actively affect the categories of unaccusativity, and a theory should include the aspect of language environment, in addition to the semantics of verbs.<br>
+            In addition to Mandarin, I also studied the child language acquisition of the Voice system in Paiwan, an Austronesian language in Taiwan.<br>
+            I had a few studies in historical syntax, which studied the historical change of Taiwanese, and functional words in Tangut.<br><br>
+        
+            In Computer Science, I am working under Peter Y. Washington’s lab and have conducted a few studies in detecting healthcare issues using language data, such as dementia and ADHD, Autism.<br>
+            I used the approaches of fine-tuning pre-trained models and evaluating LLM.<br>
+        </p>
     </section>
     <footer>
         <p>If you would like to collaborate or have any questions, contact me at: <a href="mailto:kylin@hawaii.edu">kylin@hawaii.edu</a></p>
